@@ -1,7 +1,7 @@
 import math
 
 
-def foo(n, m):
+def f13(n, m):
     sum1 = 0
     sum2 = 0
     for i in range(1, n + 1):
@@ -10,6 +10,6 @@ def foo(n, m):
     return 65 * sum1 * m - sum2
 
 
-print("{:.2e}".format(foo(76, 60)))
-print("{:.2e}".format(foo(66, 80)))
+print("{:.2e}".format(f13(76, 60)))
+print("{:.2e}".format(f13(66, 80)))
 

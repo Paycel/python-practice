@@ -1,7 +1,7 @@
 import math
 
 
-def foo(x):
+def f12(x):
     if x < 123:
         return 64 * x ** 3 + 30 * x ** 5
     elif x < 196:
@@ -14,6 +14,6 @@ def foo(x):
         return x + 65 * x ** 7
 
 
-print("{:.2e}".format(foo(94)))
-print("{:.2e}".format(foo(172)))
+print("{:.2e}".format(f12(94)))
+print("{:.2e}".format(f12(172)))
 
